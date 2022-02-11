@@ -1,0 +1,90 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+.navbar {    
+  margin: 0; 
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.game {
+    margin: auto;
+    margin-top: 100px;
+    width: 800px;
+}
+
+/* -------------lista de la navbar------------- */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+} 
+
+
+
+li button {
+  color: white;
+  background-color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li p {
+  color: white;
+  background-color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li button:hover {
+  background-color: green;
+}
+
+.square0 {
+  display:inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 2px;
+  background-color: red;
+}
+
+.square1 {
+  display:inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 2px;
+  background-color: blue;
+}
+
+.square2 {
+  display:inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 2px;
+  background-color: yellow;
+}
+
+.square3 {
+  display:inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 2px;
+  background-color: greenyellow;
+}
+
+.square4 {
+  display:inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 2px;
+  background-color: pink;
+}
